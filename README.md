@@ -3,7 +3,7 @@ A set of classes implementing TCP Socket communication.
 
 # TCPServer
 Listening to incoming connection requests. Sending and processing the received messages.
-```
+```Java
 /**
  * Server's implementations
  */
@@ -26,7 +26,7 @@ public interface ITCPServer {
 
 # TCPClient 
 Connecting to a server. Sending and processing the received messages.
-```
+```Java
 /**
  * A client's implementations
  */
@@ -50,7 +50,7 @@ public interface ITCPClient {
 
 # Communication Thread
 Handling the communication between clients and server.
-```
+```Java
 /**
  * Inform the delegate about communication thread status
  */
